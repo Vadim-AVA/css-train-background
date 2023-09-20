@@ -1,91 +1,110 @@
-.task1 {
+.task1 {background-color: green;
 }
 
-.task2 {
+.task2 {background-image: url('/img/img-400x200.jpg')
 }
 
-.task3 {
+.task3 {background-image: linear-gradient(yellow, red);
 }
 
-.task4 {
+.task4 { background-image: radial-gradient(closest-side, #3f87a6, #ebf8e1, #f69d3c);
 }
 
-.task5 {
+.task5 {background-image: conic-gradient(from 3.1416rad at 10% 50%, #e66465, #9198e5);
 }
 
 .task6 {
+  background-repeat: repeat-x;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task7 {
+  background-repeat: repeat-y;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task8 {
+  background-repeat: no-repeat;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task9 {
+    background-repeat: space;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task10 {
+    background-repeat: round;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task11 {
+  background-attachment: local;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task12 {
+  background-attachment: scroll;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task13 {
+  background-attachment: fixed;  
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task14 {
+  background-position: center center;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task15 {
+  background-position: center top;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task16 {
+  background-position: center bottom;
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task17 {
+  background-position: left center;  
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task18 {
+  background-position: right center;  
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task19 {
+  background-position: 100px center;  
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task20 {
+  background-size: auto;  
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task21 {
+  background-size: 600px;    
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task22 {
+  background-size: 50%;    
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task23 {
+  background-size: 100%;  
   background-image: url('/img/img-400x200.jpg');
 }
 
 .task24 {
+  background-size: cover;    
   background-image: url('/img/img-400x200.jpg');
 }
 
@@ -96,6 +115,7 @@
 }
 
 .task26 {
+  background-clip: padding-box;
   background-image: url('/img/img-400x200.jpg');
   border: 20px dashed black;
   box-sizing: border-box;
@@ -106,16 +126,21 @@
   font-size: 120px;
   font-weight: 900;
   color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 .task28 {
+  background-origin: border-box;
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border: 20px dashed black;
   background-repeat: no-repeat;
+
 }
 
 .task29 {
+  background-position: top left; 
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border: 20px dashed black;
@@ -124,6 +149,7 @@
 }
 
 .task30 {
+  background-position: 60px 60px;
   background-image: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border: 20px dashed black;
@@ -137,15 +163,20 @@
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
+  border-image-source: linear-gradient(blue, green);
+  padding: 20px;
+
 }
 
 .task32 {
   border-image-slice: 1%;
   border-image-width: 40px;
   box-sizing: border-box;
+  border-image-source: radial-gradient(red 5%, green 15%, blue 60%);  
 }
 
 .task33 {
+  border-image:stretch ;
   border-image-source: url('/img/img-400x200.jpg');
   box-sizing: border-box;
   border-image-width: 40px;
